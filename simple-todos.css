@@ -1,1 +1,143 @@
 /* CSS declarations go here */
+body {
+	/* Meteor Tutorial's CSS */
+	font-family: sans-serif;
+	background-color: #315481;
+	background-image: linear-gradient(to bottom, #315481, #918E82 100%);
+	background-attachment: fixed;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+.container {
+	/* Meteor Tutorial's CSS */
+	max-width: 600px;
+	margin: 0 auto;
+	min-height: 100%;
+	background: white;	
+}
+
+header {
+	/* Meteor Tutorial's CSS */
+	background: #D2EDF4;
+	background-image: linear-gradient(to bottom, #D0EDF5, #E1E5F0 100%);
+	padding: 20px 15px 15px 15px;
+	position: relative;
+}
+
+#login-buttons {
+	/* Meteor Tutorial's CSS */
+	display: block;
+}
+
+h1 {
+	/* Meteor Tutorial's CSS */
+	font-size: 1.5em;
+	margin: 0;
+	margin-bottom: 10px;
+	display: inline-block;
+	margin-right: 1em;
+}
+
+form {
+	/* Meteor Tutorial's CSS */
+	margin-top: 10px;
+	margin-bottom: -10px;
+	position: relative;
+}
+
+.new-task input {
+	/* Meteor Tutorial's CSS */
+	box-sizing: border-box;
+	padding: 10px 0;
+	background: transparent;
+	border: none;
+	width: 100%;
+	padding-right: 80px;
+	font-size: 1em;
+}
+
+.new-task input:focus {
+	/* Meteor Tutorial's CSS */
+	outline: 0;
+}
+
+ul {
+	/* Meteor Tutorial's CSS */
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+.delete {
+	/* Meteor Tutorial's CSS */
+	float: right;
+	font-weight: bold;
+	background: none;
+	font-size: 1em;
+	border: none;
+	position: relative;
+}
+
+li {
+	/* Meteor Tutorial's CSS */
+	position: relative;
+	list-style: none;
+	padding: 15px;
+	border-bottom: #EEE solid 1px;
+}
+
+li .text {
+	/* Meteor Tutorial's CSS */
+	margin-left: 10px;
+}
+
+li.checked {
+	/* Meteor Tutorial's CSS */
+	color: #888;
+}
+
+li.checked .text {
+	/* Meteor Tutorial's CSS */
+	text-decoration: line-through;
+}
+
+li.private {
+	/* Meteor Tutorial's CSS */
+	background: #EEE;
+	border-color: #DDD;
+}
+
+header .hide-completed {
+	/* Meteor Tutorial's CSS */
+	float: right;
+}
+
+.toggle-private {
+	/* Meteor Tutorial's CSS */
+	margin-left: 5px;
+}
+
+@media (max-width: 600px) {
+	li {
+		/* Meteor Tutorial's CSS */
+		padding: 12px 15px;
+	}
+
+	.search {
+		/* Meteor Tutorial's CSS */
+		width: 150px;
+		clear: both;
+	}
+
+	.new-task input {
+		/* Meteor Tutorial's CSS */
+		padding-bottom: 5px;
+	}
+}
