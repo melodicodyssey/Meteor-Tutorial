@@ -8,6 +8,8 @@
 			<h1>Todo List</h1>
 		</header>
 
+		{{> foo}}
+		
 		<ul>
 			{{#each tasks}}
 				{{> task}}
@@ -18,4 +20,8 @@
 
 <template name="task">
 	<li>{{text}}</li>
+</template>
+
+<template name="foo">
+	<span>Hello World</span>
 </template>
